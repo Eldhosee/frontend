@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+}
+.home-image{
+   width: 100%;
+   height: 304px;
+   
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.home-btn1{
+    position: relative;
+    width: 160px;
+    height: 44px;
+    border: none;
+    background: #d1410c;
+    color: #fff;
+    border-radius: 5px;
+    bottom: 24%;
+    left: 5%;
+
+}
+.card
+{
+    margin: 15px;
+    border: none;
+    color: #39364f;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 20px;
+}
+.card-img-div{
+    height: 150px;
+    
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.card-text{
+    position: relative;
+    top: -30px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;  
+    position: relative;
+    top: -50px;  
+}
+.card-icon-div{
+    position: relative;
+    top: -50px;
+    z-index: 2;
+    display: flex;
+    justify-content: end;
+    
+
+}
+.card-btn{
+    border-radius: 50%;
+    margin-right: 5%;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+.card-time{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #d1410c;
+    font-weight: 600;
+}
+.card-name{
+
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #39364f;
+    font-weight: 500;
+}
+.heading{
+    margin: 20px;
+}
+.heading-text{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: .25px;
+    margin-right: -0.25px;
+    font-weight: 700;
+
+}

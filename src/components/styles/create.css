@@ -1,0 +1,48 @@
+
+.Form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+    
+}
+.Form-body{
+    width: 40%;
+    border:1px solid rgba(0, 0, 0, 0.301);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.form-heading{
+    color: #d1410c;
+    font-weight: 800;
+    margin: 20px;
+
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 800;
+}
+.form-input{
+    
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 18px 12px 6px;
+    margin: 10px;
+}
+.form-input-body{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (max-width:1000px) {
+    .Form-body{
+        width:auto;
+        padding: 20px;
+    }
+    
+}

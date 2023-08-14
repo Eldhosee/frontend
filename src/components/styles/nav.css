@@ -1,0 +1,11 @@
+.navbar{
+    height: 72px;
+    display: flex;
+}
+
+.logo {
+    color: #d1410c;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
